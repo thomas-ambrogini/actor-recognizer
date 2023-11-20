@@ -54,4 +54,4 @@ if __name__ == "__main__":
 
 		hist = model.fit(x_train, y_train, validation_data=(x_test, y_test), batch_size=10, epochs=10)
 
-    model.save('/opt/ml/model/mnist_model/1')
+    model.save('/opt/ml/model/actor-model/2')
